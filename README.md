@@ -1,9 +1,9 @@
 # Deep Feature Extraction with Iterative Neighborhood Component Analysis (INCA)
-This repository contains a Python script for deep feature extraction using 10 pretrained Convolutional Neural Networks (CNNs) and performing feature selection with Iterative Neighborhood Component Analysis (INCA). The selected features are then used to train a Support Vector Machine (SVM) classifier.
+This repository contains a Python script for deep feature extraction using 8 pretrained Convolutional Neural Networks (CNNs) and performing feature selection with Iterative Neighborhood Component Analysis (INCA). The selected features are then used to train a Support Vector Machine (SVM) classifier.
 
 ## Features
 
-- *Deep Feature Extraction*: Utilizes 10 different pretrained CNNs to extract deep features from images.
+- *Deep Feature Extraction*: Utilizes 8 different pretrained CNNs to extract deep features from images.
 - *Feature Selection*: Implements Iterative Neighborhood Component Analysis (INCA) to select the most informative features.
 - *Cross-Validation*: Uses Stratified K-Fold cross-validation to evaluate the performance of k-NN classifier during feature selection.
 - *SVM Training*: Trains a Support Vector Machine (SVM) classifier with the selected features.
@@ -57,5 +57,5 @@ The trained SVM model and the selected features are saved for future use.
 
 4. *Run the Script*:
    sh
-   python deep_ten_cnn.py
+   python deep_eight_cnn.py
 
